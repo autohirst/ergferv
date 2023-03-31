@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "name-of-your-vercel-app",
+  "routes": [
+    { "src": "/api/v3/text2img", "dest": "/server.js" },
+    { "src": "/api/v3/fetch", "dest": "/server.js" },
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
